@@ -4,7 +4,9 @@ description: 'Software Developer | Music Producer'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+# disqus_shortname: 'your-disqus-name
+collections:
+  - external_feed
 
 author:
   name: 'James Hamann'
@@ -17,6 +19,7 @@ author:
   soundcloud_username: jameshamann
   bandcamp_username: jameshamann
   pintrest_username: jameshamann
+
 
 
 

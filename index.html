@@ -5,9 +5,9 @@ layout: default
 <div class="main-post-list">
 
   <ol class="post-list">
-    <h2>Blog</h2>
+    <h1>Blog</h1>
     {% for e in site.external_feed %}
-    <h2>{{ e.title }}</h2>
+    <h3>{{ e.title }}</h3>
     <p>{{ e.feed_content }}</p>
     {% endfor %}
   </ol>

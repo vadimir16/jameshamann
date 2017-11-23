@@ -1,3 +1,21 @@
 ---
 layout: default
 ---
+
+<div class="main-post-list">
+
+  <ol class="post-list">
+    <h1>Blog</h1>
+    {% for e in site.external_feed %}
+    <h3>{{ e.title }}</h3>
+    <p>{{ e.feed_content }}</p>
+    {% endfor %}
+  </ol>
+
+  <hr class="post-list__divider ">
+
+  {% if paginator.previous_page or paginator.next_page %}
+      {% include pagination.html %}
+  {% endif %}
+
+</div>
